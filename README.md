@@ -84,9 +84,4 @@ Detailed detection and response workflows for:
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
----
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to open an [Issue](https://github.com/your-repo/issues) or submit a [Pull Request](https://github.com/your-repo/pulls).
 
