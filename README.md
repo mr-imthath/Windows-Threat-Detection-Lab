@@ -58,6 +58,16 @@ This project Simulate adversary behavior in a Windows 10 lab to **generate and a
 🔗 **See full mappings in:** [`docs/mitre-mapping.md`](docs/mitre-mapping.md)
 
 ---
+## 📊 Detection Logic & MITRE Mapping
+
+| MITRE ATT&CK Technique         | Event ID(s)         | Description                            |
+|--------------------------------|---------------------|----------------------------------------|
+| [`T1110.001`](https://attack.mitre.org/techniques/T1110/001/) Brute Force        | 4625                | Detect multiple failed login attempts  |
+| [`T1059.001`](https://attack.mitre.org/techniques/T1059/001/) PowerShell         | 4688, Sysmon 1      | Detect encoded PowerShell commands     |
+| [`T1041`](https://attack.mitre.org/techniques/T1041/) C2 Exfiltration        | Sysmon 3            | Detect suspicious outbound traffic     |
+
+🔗 **See full mappings in:** [`docs/mitre-mapping.md`](docs/mitre-mapping.md)
+
 
 ## 📘 Detection Playbooks
 
